@@ -12,3 +12,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.register_title {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-left: 95px;
+}
+
+.login_title {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-right: 120px;
+}
+
+.ant-form.ant-form-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit;
+  width: 28%;
+}
+
+.login-form-button {
+  margin-right: 5%;
+}
